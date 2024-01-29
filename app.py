@@ -4,7 +4,8 @@ import pandas as pd
 from pymavlink import mavutil
 
 log_file_path = './2024_swe_internship_vibe_analysis_assignment.BIN'
-
+# GITHUB LINK: https://github.com/vjz3qz/skyways
+# github repo includes this code, the BIN file, and the CSV file
 
 # Function to convert the dataflash log to a DataFrame
 def convert_log_to_df(log_file_path, message_type):
